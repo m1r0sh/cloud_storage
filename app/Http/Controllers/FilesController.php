@@ -12,7 +12,7 @@ class FilesController extends Controller
      */
     public function index(): Response
     {
-        //
+
     }
 
     /**
