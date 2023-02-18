@@ -2,9 +2,17 @@
 
 namespace App\Service\Admin;
 
+use App\Service\AbstractService;
 use Illuminate\Http\Request;
 
-class DeleteService extends
+class DeleteService
 {
-    //
+
+    public function __construct()
+    {
+    }
+
+    public function handle()
+    {
+    }
 }

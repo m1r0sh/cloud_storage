@@ -3,8 +3,17 @@
 namespace App\Service\Admin;
 
 use Illuminate\Http\Request;
+use App\Repository\Admin\ReadRepository as Repository;
 
-class ReadService extends Controller
+class ReadService
 {
-    //
+    protected object $repository;
+    public function __construct(Repository $repository)
+    {
+        $this->repository = $repository;
+    }
+
+    public function handle($id)
+    {
+    }
 }

@@ -2,9 +2,11 @@
 
 namespace App\Service;
 
-use Illuminate\Http\Request;
-
-abstract class AbstractService
+abstract class AbstractService implements \HandleInterface
 {
+    private object $repository;
+
+    abstract public function __construct();
+
     abstract public function handle();
 }

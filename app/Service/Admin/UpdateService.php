@@ -4,7 +4,13 @@ namespace App\Service\Admin;
 
 use Illuminate\Http\Request;
 
-class UpdateService extends Controller
+class UpdateService
 {
-    //
+    public function __construct()
+    {
+    }
+
+    public function handle()
+    {
+    }
 }
