@@ -15,5 +15,6 @@ class ReadService
 
     public function handle($id)
     {
+        return $this->repository->readRepository($id);
     }
 }

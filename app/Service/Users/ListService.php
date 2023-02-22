@@ -15,6 +15,6 @@ class ListService
 
     public function handle()
     {
-
+        return $this->repository->listRepository();
     }
 }
